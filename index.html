@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloIndex.css">
+    <link rel="website icon" type="png" href="image/icons8-circled-l-48.png">
+    <title>Luiz's Portifólio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="divTextHeader">
+                <p><a href="#projetos" class="ancoraMenu">Projetos</a></p>
+                <p><a href="#conhecimentos" class="ancoraMenu">Conhecimentos</a></p>
+                <p><a href="#contato" class="ancoraMenu">Contato</a></p>
+            </div>
+        </nav>
+    </header>
+       <section id="sectionIntroducion">
+            <div id="divTextIntroducion">
+                <p id="introducao">Olá, Me chamo Luiz Moraes</p>
+                <div class="animatedText">
+                    Desenvolvedor <span></span>
+                </div>
+                <div class="botoes">
+                    <a class="buttonContent" href="https://github.com/luiz12310" target="_blank"><button class="buttonAnimation">GitHub</button></a>
+                    <a class="buttonContent" href="CurriculoCV_LuizMoraes.docx"><button class="buttonAnimation">Download CV</button></a>                    
+                </div>
+            </div>
+            <div id="bordaSection"><p>-</p></div>
+        </section>
+
+        <section id="sectionSkills">
+            <a name="projetos"></a>
+            <h1 class="h1">Projetos</h1>
+
+            <div class="divRow">
+                <div class="cardProjeto">
+                    <h6>Sem Projetos</h6>
+                    <p>Futuramente mais Projetos nessa aba.</p>
+                </div>
+            </div>
+            <div id="bordaSection"><p>-</p></div>       
+        </section>
+        
+        <section id="sectionSkills">
+            <a name="conhecimentos"></a>
+            <h1 class="h1">Conhecimentos</h1>
+
+            <div class="divRow">
+                <div class="cardSkill">
+                    <h6>HTML5</h6>
+                    <p>HTML5 é uma linguagem de marcação de hipertexto, que usamos para marcar os elementos da página e construí-la.</p>
+                </div>
+                <div class="cardSkill">
+                    <h6>CSS3</h6>
+                    <p>CSS3 é uma linguagem de estilo usada para descrever a apresentação dos elementos da página os estilizando.</p>
+                </div>
+                <div class="cardSkill">
+                    <h6>JavaScript</h6>
+                    <p>JavaScript é uma linguagem de programação usada no desenvolvimento web para funcionalidades e comportamentos da página.</p>
+                </div>
+            </div>
+            <div class="divRow">
+                <div class="cardSkill">
+                    <h6>Angular</h6>
+                    <p>AngularJS é um framework usado para construir aplicativos para web baseados em uma única página dinâmica.</p>
+                </div>
+                <div class="cardSkill">
+                    <h6>C#</h6>
+                    <p>C# é uma linguagem de programação orientada a objetos e orientada a componentes.</p>
+                </div>
+                <div class="cardSkill">
+                    <h6>SQL</h6>
+                    <p>SQL é uma linguagem padrão para manipulação de registros em bancos de dados relacionais. </p>
+                </div>
+            </div>
+            <div id="bordaSection"><p>-</p></div>       
+        </section>
+
+        <section id="sectionContact">
+            <a name="contato"></a>
+            <h1 class="h1">Entre em Contato</h1>
+
+            <form action="https://formsubmit.co/luizmoraesprogrammer@gmail.com" method="POST">
+                <fieldset>
+                    <input name="nome" type="text" class="inputForm" id="txtname" placeholder="Nome" required="required" autocomplete="off"/>
+                    <br>
+
+                    <div id="conjuntoEmailTel">
+                        <input name="email" type="email" class="inputForm" id="txtEmail" placeholder="E-mail" required="required" autocomplete="off"/>                        
+                        <input name="telefone" type="tel" class="inputForm" id="txtCelular" placeholder="Número de Telefone" required="required" autocomplete="off"/>
+
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/agradecimento.html">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+
+                    <textarea name="mensagem" rows="8" id="txtAreaMsg" placeholder="Mensagem" required></textarea>
+
+                    <button id="btnForm" type="submit">Enviar Agora</button>
+                </fieldset>
+            </form>
+            <div class="borda"></div>
+        </section>
+
+        <footer>
+            <p>©️ Luiz Moraes - Todos Direitos Reservados</p>
+        </footer>
+</body>
+</html>

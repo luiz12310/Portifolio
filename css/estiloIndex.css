@@ -323,19 +323,17 @@ html{
 
 .cardProjeto{
     background-color: #212121;
-    width: 25vw;
+    width: 22vw;
     height: 48vh;
     border-radius: 15px;
-    text-align: left;
     padding: 25px;
     box-sizing: border-box;
     transition: 0.5s;
-    transition: 0.5s;
-    text-align: center;
+    text-align: left;
 }
 
 .cardProjeto:hover{
-    background-color: #95a32c;
+    background-color: #2a2c2a;
 }
 
 .cardSkill:hover{
@@ -361,7 +359,13 @@ html{
     color: white;
     font-weight: 100;
     font-size: 22px;
-    margin-bottom: 3vh;
+    margin-bottom: 2vh;
+}
+
+.cardProjeto p{
+    /* color: white; */
+    font-weight: 100;
+    font-size: 17px;
 }
 
 .cardSkill p{
